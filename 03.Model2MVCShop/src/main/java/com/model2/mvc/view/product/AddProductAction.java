@@ -24,7 +24,7 @@ public class AddProductAction extends Action {
 		
 		if(FileUpload.isMultipartContent(request)) {
 //			C:\Users\bitcamp\git\03MVCShop\03.Model2MVCShop
-			String temDir = "c:\\Users\\bitcamp\\git\\03MVCShop\\03.Model2MVCShop\\src\\main\\webapp\\images\\uploadFiles\\";
+			String temDir = "c:\\Users\\bitcamp\\git\\03MVC-actionbase-\\03.Model2MVCShop\\src\\main\\webapp\\images\\uploadFiles\\";
 //			String temDir2 = "/uploadFiles/";
 			
 			DiskFileUpload fileUpload = new DiskFileUpload();
